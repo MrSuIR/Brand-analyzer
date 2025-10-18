@@ -8,7 +8,7 @@ pip install -r requirements.txt
 python src/main.py --files products1.csv products2.csv --report average-rating
 
 ### Прмиер запуска скрипта
-<img width="1547" height="182" alt="image" src="https://github.com/user-attachments/assets/fcb496ce-0667-4234-b3ec-95377d1baf6f" />
+<img width="1521" height="185" alt="image" src="https://github.com/user-attachments/assets/84a3a18d-af09-4f1f-96d0-e71478b267ed" />
 
 ### Добавление нового отчета
 1) Создать класс отчета с методом generate()
