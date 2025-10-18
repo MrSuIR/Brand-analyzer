@@ -1,11 +1,14 @@
 Скрипт для анализа CSV-файлов с данными о товарах и генерации отчетов по рейтингам брендов.
 
 ### Установка зависимостей
-```bash```
+```
 pip install -r requirements.txt
+```
 
 ### Запуск
+```
 python src/main.py --files products1.csv products2.csv --report average-rating
+```
 
 ### Пример запуска скрипта
 <img width="1521" height="185" alt="image" src="https://github.com/user-attachments/assets/84a3a18d-af09-4f1f-96d0-e71478b267ed" />
@@ -31,5 +34,7 @@ python src/main.py --files products1.csv products2.csv --report average-rating
 ```
 
 5) Запуск нового отчета
+```
   python src/main.py --files products1.csv products2.csv --report average-price
+```
 
