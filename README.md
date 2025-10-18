@@ -12,13 +12,15 @@ python src/main.py --files products1.csv products2.csv --report average-rating
 
 ### Добавление нового отчета
 1) Создать класс отчета с методом generate()
+  ```python```
   class AveragePriceReport:
       @staticmethod
       def generate(data: list[dict]) -> list[dict]:
           # Логика расчета средней цены по брендам
           return report_data
 
-2) Зарегистрируйте отчет в ReportRegistry:
+3) Зарегистрируйте отчет в ReportRegistry:
+  ```python```
   class ReportRegistry:
     def __init__(self):
         self.reports = {
@@ -26,6 +28,6 @@ python src/main.py --files products1.csv products2.csv --report average-rating
             "average-price": AveragePriceReport.generate 
         }
 
-3) Запуск нового отчета
+5) Запуск нового отчета
   python src/main.py --files products1.csv products2.csv --report average-price
 
