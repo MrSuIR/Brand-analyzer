@@ -7,7 +7,7 @@ pip install -r requirements.txt
 ### Запуск
 python src/main.py --files products1.csv products2.csv --report average-rating
 
-### Прмиер запуска скрипта
+### Пример запуска скрипта
 <img width="1521" height="185" alt="image" src="https://github.com/user-attachments/assets/84a3a18d-af09-4f1f-96d0-e71478b267ed" />
 
 ### Добавление нового отчета
