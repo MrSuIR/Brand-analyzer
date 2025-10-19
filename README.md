@@ -28,8 +28,8 @@ python src/main.py --files products1.csv products2.csv --report average-rating
   class ReportRegistry:
     def __init__(self):
         self.reports = {
-            "average-rating": AverageRatingReport.generate,
-            "average-price": AveragePriceReport.generate 
+            "average-rating": AverageRatingReport(),
+            "average-price": AveragePriceReport()
         }
 ```
 
