@@ -23,7 +23,7 @@ python src/main.py --files products1.csv products2.csv --report average-rating
           return report_data
 ```
 
-3) Зарегистрируйте отчет в ReportRegistry:
+2) Зарегистрируйте отчет в ReportRegistry:
 ```
   class ReportRegistry:
     def __init__(self):
@@ -33,7 +33,7 @@ python src/main.py --files products1.csv products2.csv --report average-rating
         }
 ```
 
-5) Запуск нового отчета
+3) Запуск нового отчета
 ```
   python src/main.py --files products1.csv products2.csv --report average-price
 ```
